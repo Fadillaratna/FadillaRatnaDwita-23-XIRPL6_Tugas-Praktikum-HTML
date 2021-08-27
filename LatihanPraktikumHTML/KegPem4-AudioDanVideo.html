@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multimedia Menampilkan Audio Dan Video Pada HTML</title>
+    <body>
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="send-still-music.mp3" type="audio/mp3">
+            Browser doesn't support the audio from this website
+
+            <!--
+                "controls" untuk menampilkan control dari audio seperti play, pause, volume. File audio harus terdapat di dalam folder yang sama dengan file html
+
+                Kalimat "Browser doesn't support the audio from this website" akan ditampilkan apabila browser tidak mensupport audio yang ingin ditampilkan
+            -->
+        </audio>
+
+        <h3>Video</h3>
+        <video controls width="80%">
+            <source src="video-intro-financetify.mp4" type="video/mp4">
+        </video>
+    </body>
+    </head>
+</html>
